@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.553);
+    border-radius: 18px;
+    padding: 40px;
+}
+
+header{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+#logo{
+    width: 200px;
+}
+
+h1{
+    margin: 5px;
+    color: rgb(0, 222, 0);
+}
+
+nav{
+    height: 40px;
+    padding: 10px;
+    margin: 0 40px;
+    background-color: rgb(0, 222, 0);
+    text-align: center;
+}
+
+section{
+    padding-left: 40px;
+}
+
+section > p{
+    margin: 4px;
+}
+
+.id-monopattino{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.carica{
+    height: 24px;
+    border-radius: 5px;
+}
+
+.carica.verde{
+    width: 600px;
+    background-color:rgb(1, 166, 1);
+}
+
+.carica.orange{
+    width: 400px;
+    background-color: orange;
+}
+
+.carica.rossa{
+    width: 200px;
+    background-color: red;
+}
